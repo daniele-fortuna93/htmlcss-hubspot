@@ -17,6 +17,13 @@
 .float-l{
   float: left;
 }
+.float-r{
+  float: right;
+}
+.second-nav, nav{
+  line-height: 30px;
+  padding: 20px 0;
+}
 .button{
   padding: 10px 10px;
   border: 1px solid #ff7a59;
@@ -24,24 +31,22 @@
   background-color: #ff7a59;
   color: #fff;
 }
+/* /mix */
+/* typo */
 a{
   color: #33475b;
+  text-decoration: none;
 }
-/* /mix */
+/* /typo */
 
 /* intestazione */
 /* second-nav */
 .second-nav{
   background-color: #f5f8fa;
-  line-height: 30px;
-  padding: 20px 0;
 }
-.second-nav li{
+.second-nav li, .main-nav li{
   display: inline-block;
   vertical-align: middle;
-}
-.second-nav li a{
-  text-decoration: none;
 }
 .language li:first-child a{
   padding-right: 12px;
@@ -50,10 +55,7 @@ a{
 .language li:last-child a{
   margin-left: 15px;
 }
-.access-point{
-  float: right;
-}
-.access-point li{
+.access-point li, .main-nav li{
   margin-left: 25px;
 }
 .access-point li i{
@@ -65,4 +67,9 @@ a{
   color: #ff7a59;
 }
 /* /second-nav */
+/* main-nav */
+.main-nav li a i{
+  margin-left: 10px;
+}
+/* main-nav */
 /* /intestazione */
