@@ -42,7 +42,7 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
-h1, a, p{
+h1, a, p, h2{
   color: #33475b;
 }
 h1{
@@ -50,6 +50,10 @@ h1{
 }
 a{
   text-decoration: none;
+}
+p{
+  font-size: 16px;
+  line-height: 26px;
 }
 /* /typo */
 
@@ -112,9 +116,51 @@ a{
 }
 .jumbotron-title p{
   margin: 35px 0;
-  font-size: 18px;
-  line-height: 26px;
 }
-
+.jumbotron p:last-child{
+  font-size: 14px;
+}
 /* /jumbotron */
 /* /intestazione */
+
+/* main */
+main{
+  background-color: #f5f8fa;
+}
+.main-title{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.main-title img{
+  margin-top: 50px;
+  height: 200px;
+}
+.main-title h2{
+  font-size: 35px;
+}
+.main-title p{
+  margin: 30px 0;
+}
+.col{
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 1px grey;
+}
+.big-col{
+  width: 100%;
+  padding: 50px 0;
+}
+.col-img{
+  width: 25%;
+  text-align: center;
+}
+.col-img img{
+  height: 100px;
+  width: 100%;
+}
+.col-text{
+  width: 65%;
+  padding-right: 50px;
+}
+/* /main */
