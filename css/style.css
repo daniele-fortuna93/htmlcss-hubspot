@@ -9,8 +9,60 @@
   width: 80%;
   margin: auto;
 }
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.float-l{
+  float: left;
+}
+.button{
+  padding: 10px 10px;
+  border: 1px solid #ff7a59;
+  border-radius: 5px;
+  background-color: #ff7a59;
+  color: #fff;
+}
+a{
+  color: #33475b;
+}
 /* /mix */
+
+/* intestazione */
+/* second-nav */
 .second-nav{
   background-color: #f5f8fa;
-  height: 200px;
+  line-height: 30px;
+  padding: 20px 0;
 }
+.second-nav li{
+  display: inline-block;
+  vertical-align: middle;
+}
+.second-nav li a{
+  text-decoration: none;
+}
+.language li:first-child a{
+  padding-right: 12px;
+  border-right: 2px solid grey;
+}
+.language li:last-child a{
+  margin-left: 15px;
+}
+.access-point{
+  float: right;
+}
+.access-point li{
+  margin-left: 25px;
+}
+.access-point li i{
+  color: #3fbacd;
+}
+#log-in{
+  border: 1px solid #ff7a59;
+  background-color: #fff;
+  color: #ff7a59;
+}
+/* /second-nav */
+/* /intestazione */
