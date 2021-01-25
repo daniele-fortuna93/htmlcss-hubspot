@@ -4,3 +4,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* mix */
+.container{
+  width: 80%;
+  margin: auto;
+}
+/* /mix */
+.second-nav{
+  background-color: #f5f8fa;
+  height: 200px;
+}
