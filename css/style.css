@@ -42,7 +42,7 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
-h1, a, p, h2{
+h1, a, p, h2, h3, h5{
   color: #33475b;
 }
 h1{
@@ -139,7 +139,7 @@ main{
 .main-title h2{
   font-size: 35px;
 }
-.main-title p{
+.main-title p, .col-img p, .col-text p{
   margin: 30px 0;
 }
 .col{
@@ -150,17 +150,37 @@ main{
 .big-col{
   width: 100%;
   padding: 50px 0;
+  margin: 50px 0;
 }
 .col-img{
-  width: 25%;
+  width: 30%;
   text-align: center;
+  margin-right: 5%;
 }
 .col-img img{
   height: 100px;
   width: 100%;
+  margin: 15px 0;
 }
 .col-text{
-  width: 65%;
-  padding-right: 50px;
+  width: 67.5%;
+}
+.col-text h5, .col-text hr{
+  display: inline-block;
+}
+.col-text h5{
+  font-size: 20px;
+}
+.col-text hr {
+  width: 60%;
+  vertical-align: middle;
+  margin-left: 100px;
+  border: 1px solid #33475b;
+}
+.main-product h3{
+  font-size: 28px;
+}
+.main-product .col-img:last-child, .main-product .col-img:first-child{
+  margin: 0;
 }
 /* /main */
