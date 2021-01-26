@@ -128,7 +128,7 @@ h6{
 .jumbotron-title p{
   margin: 35px 0;
 }
-.jumbotron p:last-child, .bottom-start_today p:last-child{
+.jumbotron p:last-child, .bottom-start_today p:last-child, .footer-col a{
   font-size: 13px;
 }
 /* /jumbotron */
@@ -314,4 +314,23 @@ main{
 /* /main */
 
 /* footer */
+footer{
+  background-color: #2d3e50;
+  padding: 30px 0;
+}
+.footer-col {
+  width: 25%;
+}
+.footer-col li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+.footer-col li a{
+  color: #cbd6e2;
+}
+.footer-col li:first-child a{
+  color: #fff;
+  margin-bottom: 13px;
+  font-weight: 600;
+}
 /* /footer */
