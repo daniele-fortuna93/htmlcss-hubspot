@@ -52,8 +52,19 @@ a{
   text-decoration: none;
 }
 p{
-  font-size: 16px;
+  font-size: 15px;
   line-height: 26px;
+}
+h6{
+  font-size: 35px;
+  font-weight: 700;
+}
+.row-box h6::after{
+  content: '+';
+  font-size: 16px;
+  font-weight: normal;
+  vertical-align: middle;
+  margin-left: 3px;
 }
 /* /typo */
 
@@ -137,7 +148,7 @@ main{
   margin-top: 50px;
   height: 200px;
 }
-.main-title h2{
+.main-title h2, .main-numbers h3{
   font-size: 35px;
 }
 .main-title p, .col-text p{
@@ -148,7 +159,7 @@ main{
 .col{
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0px 1px 2px 1px grey;
+  box-shadow: 0 0 3px #000000;
   padding: 20px 25px;
 }
 .big-col{
@@ -210,4 +221,53 @@ main{
   list-style: none;
 }
 /* /main-product */
+
+/* main-numbers */
+/* main-numbers-title */
+.main-numbers{
+  text-align: center;
+  margin-top: 50px;
+  background: linear-gradient(45deg,#00a4bd,#00bda5);
+}
+.main-numbers-title h3, .main-numbers-title p, .row-box p{
+  color: #fff;
+}
+.main-numbers-title h3{
+  margin: 30px 40px;
+  display: inline-block;
+}
+.main-numbers-title p{
+  margin-bottom: 20px;
+}
+/* /main-numbers-title */
+/* main-numbers-table */
+.main-numbers-table{
+  padding-bottom: 60px;
+}
+.row{
+  border-bottom: 1px solid #fff;
+}
+.main-numbers-table .row:last-child{
+  border-bottom: none;
+}
+.row-box{
+  border-right: 1px solid #fff;
+  color: #fff;
+  width: 25%;
+  padding: 15px 0 20px 0;
+}
+.row-box img{
+  height: 24px;
+}
+.row-box h6 {
+  margin: 10px 0;
+}
+.row .row-box:last-child{
+  border-right: none;
+}
+/* main-numbers-table */
+/* /main-numbers */
+
+/* main-affiliations */
+/* /main-affiliations */
 /* /main */
