@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 /* mix */
-.container{
+.container, .main-title-box{
   width: 80%;
   margin: auto;
 }
@@ -128,8 +128,8 @@ h6{
 .jumbotron-title p{
   margin: 35px 0;
 }
-.jumbotron p:last-child{
-  font-size: 14px;
+.jumbotron p:last-child, .bottom-start_today p:last-child{
+  font-size: 13px;
 }
 /* /jumbotron */
 /* /intestazione */
@@ -140,8 +140,6 @@ main{
 }
 /* main title */
 .main-title-box{
-  width: 80%;
-  margin: auto;
   text-align: center;
 }
 .main-title-box img{
@@ -269,5 +267,51 @@ main{
 /* /main-numbers */
 
 /* main-affiliations */
+.main-affiliations{
+  background-color: #fff;
+}
+.main-affiliations-box-top{
+  width: 90%;
+  margin: auto;
+  padding: 50px 0;
+}
+.top-numbers{
+  width: 35%;
+  padding-right: 220px;
+}
+.top-numbers h6{
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+.top-logo, .bottom-img{
+  width: 65%;
+  text-align: right;
+}
+.top-logo ul{
+  margin-bottom: 15px;
+}
+.top-logo li {
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.top-logo li img{
+  width: 90%;
+}
+.bottom-start_today{
+  width: 35%;
+}
+.bottom-start_today h3{
+  font-size: 30px;
+}
+.bottom-start_today h3, .bottom-start_today p, .bottom-start_today a{
+  margin-bottom: 30px;
+}
+.bottom-img img{
+  height: 300px;
+}
 /* /main-affiliations */
 /* /main */
+
+/* footer */
+/* /footer */
