@@ -42,7 +42,7 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
-h1, a, p, h2, h3, h5, li{
+h1, a, p, h2, h3, h5, li, #btn-support{
   color: #33475b;
 }
 h1{
@@ -297,6 +297,7 @@ main{
 }
 .top-logo li img{
   width: 90%;
+  cursor: pointer;
 }
 .bottom-start_today{
   width: 35%;
@@ -332,5 +333,14 @@ footer{
   color: #fff;
   margin-bottom: 13px;
   font-weight: 600;
+}
+#btn-support{
+  display: inline-block;
+  background-color: #cbd6e2;
+  border: none;
+  margin: 5px 0;
+}
+.footer-col:last-child li:last-child a{
+  margin-right: 5%;
 }
 /* /footer */
