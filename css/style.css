@@ -48,7 +48,7 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
-h1, a, p, h2, h3, h5, li, #btn-support{
+h1, a, p, h2, h3, h5, li, .top-numbers h6, #btn-support{
   color: #33475b;
 }
 h1{
@@ -95,6 +95,9 @@ h6{
 .top-numbers h6{
   font-size: 42px;
   margin-bottom: 30px;
+}
+.top-numbers p span{
+  font-weight: 600;
 }
 /* /typo */
 
@@ -285,7 +288,7 @@ main{
 }
 .top-numbers{
   width: 35%;
-  padding-right: 220px;
+  padding-right: 10%;
 }
 .top-logo, .bottom-img{
   width: 65%;
