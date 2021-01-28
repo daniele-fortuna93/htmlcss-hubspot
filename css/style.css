@@ -149,8 +149,10 @@ h6{
 .jumbotron img{
   width: 100%;
 }
-.img-bottom{
-  height: 13%;
+.jumbotron::after {
+  display: block;
+  content: '';
+  height: 12%;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -184,7 +186,7 @@ main{
 .col{
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 3px #000000;
+  box-shadow: 0 0 3px #ddd;
   padding: 20px 25px;
 }
 .big-col{
