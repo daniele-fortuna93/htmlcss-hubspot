@@ -67,10 +67,10 @@ h6{
 }
 .row-box h6::after{
   content: '+';
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;
   vertical-align: middle;
-  margin-left: 3px;
+  margin-left: 2px;
 }
 .jumbotron p:last-child, .bottom-start_today p:last-child, .footer-col a, .footer-bottom-language li a, .footer-bottom-policy li a{
   font-size: 13px;
